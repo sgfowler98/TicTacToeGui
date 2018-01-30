@@ -4,6 +4,8 @@ package cpsc2150.hw5;
 //CPSC2150
 //HW5
 
+/** BEGIN CODE NOT WRITTEN BY ME **/
+
 import javax.swing.*;
 
 /**
@@ -27,6 +29,8 @@ public class TicTacToeController {
 
 
     // add the code and contracts for the constructor of our tic tac toe game
+    
+    /** END CODE NOT WRITTEN BY ME **/
 
     /**
      * constructor for TicTacToeController
