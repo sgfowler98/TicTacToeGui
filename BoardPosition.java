@@ -29,7 +29,6 @@ public class BoardPosition {
     /**
      * accessor for the row of a BoardPosition
      * @return row value for a board position
-     * @requires nothing
      * @ensures the row of the BoardPosition will be returned
      */
     public int getRow() {
@@ -39,7 +38,6 @@ public class BoardPosition {
     /**
      * accessor for the column of a BoardPosition
      * @return column value for a board position
-     * @requires nothing
      * @ensures the column of the BoardPosition will be returned
      */
     public int getColumn() {
@@ -49,7 +47,6 @@ public class BoardPosition {
     /**
      * accessor for the player identity of a BoardPosition
      * @return player identity for a board position
-     * @requires nothing
      * @ensures the player marker of the BoardPosition will be returned
      */
     public char getPlayer() {
@@ -59,7 +56,7 @@ public class BoardPosition {
     /**
      * Equals method for BoardPosition
      * @param obj object to be compared
-     * @requires obj to be a BoardPosition
+     * @requires obj to be of type BoardPosition
      * @return true if BoardPositions are equal, false otherwise
      */
     @Override
