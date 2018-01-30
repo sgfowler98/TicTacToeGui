@@ -199,7 +199,6 @@ public class GameBoardFast implements IGameBoard {
      * converts the GameBoardFast into a graphical representation of
      * blank spaces, Xs and Os with the GameBoard grid
      * @return graphical representation of the GameBoardFast
-     * @requires nothing
      * @ensures a graphical representation of a GameBoardFast will be returned
      */
     @Override
